@@ -9,6 +9,14 @@
     font-family: 'Josfin Sans' , sans-serif;
     
 }
+
+.navbar{
+    background-color: black !important;
+}
+.navbar-brand{
+    display: none;
+}
+
 #home{
 
 
