@@ -1,0 +1,419 @@
+/* body{
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josfin Sans' , sans-serif;
+    
+}
+#home{
+
+
+    background-color: black;
+    height: 750px;
+    width: 100%;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links ul li{
+    padding: 20px;
+}
+.links ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.links ul li a:hover{
+
+    color: white;
+    transition: .4s;
+    border: 2px solid #f9004d ;
+    
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 2px solid ;
+    margin-top: 15px;
+}
+.span{
+    color: #f9004d;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.im{
+    margin-top: 200px;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+.pic1{
+    flex-direction: column;
+    width: 50%;
+}
+.picture img{
+     width: 650px;
+    height: 500px; 
+    box-shadow: 3px 2px #f9004d;
+}
+.pic2 {
+
+   flex-direction: column;
+   width: 50%;
+}
+.pic2 img{
+
+    box-shadow: 3px 2px #f9004d;
+}
+
+h1{
+    color: white;
+   
+    font-size: 60px;
+
+}
+h3{
+    color: white;
+    font-size: 30px;
+    
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 25px;
+} 
+
+#about{
+    width: 100%;
+    padding: 150px 0px;
+    background-color: #191919;
+}
+.main{
+    width: 1255px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.me{
+    flex-direction: column;
+    width: 50%;
+    
+}
+.me h2 {
+    color: white;
+    font-size: 75px;
+    
+}
+.me h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+.me p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fcfc ;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    
+}
+#qualification{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+#more{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.ti p {
+    font-size: 55px;
+    text-align: center;
+    color: white;
+}
+.dp{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.dc1 p{
+    color: white;
+    font-size: 25px;
+
+}
+.dc1{
+    height: 400px;
+    width: 400px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 40px;
+    margin: 15px;
+    border: 2px solid #f9004d;
+}
+.dc1 ul li{
+    color:#fcfc;
+    line-height: 25px;
+}
+.orange{
+    color: orange;
+}
+
+#my-skills{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.h p{
+    font-size: 65px;
+    text-align: center;
+    color: white;
+}
+.father{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.dc2 p{
+    color: white;
+    font-size: 25px;
+}
+.dc2{
+    height: 400px;
+    width: 400px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 40px;
+    margin: 15px;
+    border: 2px solid #f9004d;
+}
+.dc2 ul li{
+    color: #fcfc;
+}
+.btt{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f9004d;
+    height: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    border: 2px solid #fcfc;
+}
+.btt:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    color: #fcfc;
+    transition: .4s;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #191919;
+    width: 100%;
+    height: 350px;
+ 
+}
+.prag{
+
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+#contact-me a{
+ background-color: #f9004d;
+ padding: 10px;
+ color: white;
+ margin: 7px;
+ border-radius: 50%;
+ font-size: 20px;
+
+}
+#contact-me a:hover{
+
+    background-color: transparent;
+    border: 2px solid #f9004d;
+   
+    transition: .4s;
+
+}
+
+
+#contact-info ul li {
+    list-style-type: none;
+    color: #fcfc;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+#contact-info ul li a{
+    text-decoration: none;
+    color: #fcfc;
+}
+#contact-info ul li a:hover{
+    text-decoration: underline;
+    color: #f9004d;
+}
+.pages ul li{
+   
+    list-style-type: none;
+    
+}
+.pages ul li a{
+    text-decoration: none;
+    color: #fcfc;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.pages ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+
+}
+.copyright{
+   
+   text-align: center;
+   background-color: #f9004d;
+   height: 25px;
+    
+}
+
+
+
+/*media quiry----------------------------------*/
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .main{
+        width: 1255px;
+       
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .me{
+        flex-direction: column;
+        width: 100%;
+        /* margin-left: 5px; */
+    }
+    .pic2 {
+
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+     }
+     .pic2 img{
+         width: 100%;
+     }
+     #home{
+         height: 100%;
+         
+
+     }
+     .picture{
+         display: flex;
+         flex-direction: column;
+     }
+     
+    .pic1{
+          width: 100%;
+          margin-top: 30px;
+    }
+    .pic1 img{
+        width: 98%;
+       
+    }
+    .qulification{
+        height: 100%;
+    }
+    .dp{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .my-skills{
+        height: 100%;
+    }
+    .dc1{
+        height: 100%;
+        width: 90%;
+    }
+    .dc2{
+        width: 90%;
+    }
+    .father{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+       
+    }
+    footer{
+        height: 100%;
+       
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .prag{
+          text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1310px){
+    .pic1{
+        width: 100%;
+        
+  }
+  .pic1 img{
+      width: 98%;
+     
+  }
+  .main{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+   }
+   .pic2 img{
+    width: 100%;
+  }
+}
