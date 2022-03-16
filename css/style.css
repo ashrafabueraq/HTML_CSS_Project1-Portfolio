@@ -29,9 +29,10 @@
     padding: 20px;
 }
 .links ul li a{
-    color: white;
+    color: white !important;
     font-weight: bold;
     font-size: 20px;
+    
 }
 .links ul li a:hover{
 
@@ -425,3 +426,13 @@ footer{
   }
  
 }
+
+
+
+
+
+
+
+
+
+
