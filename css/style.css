@@ -180,6 +180,7 @@ button:hover{
 .dc1 p{
     color: white;
     font-size: 25px;
+    
 
 }
 .dc1{
@@ -194,6 +195,7 @@ button:hover{
 .dc1 ul li{
     color:#fcfc;
     line-height: 25px;
+    
 }
 .orange{
     color: orange;
@@ -329,7 +331,7 @@ footer{
 
 /*media quiry----------------------------------*/
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
     .main{
         width: 1255px;
        
@@ -405,29 +407,104 @@ footer{
     .navbar-brand{
         display: inline;
     }
+    
 }
-@media screen and (min-width: 769px) and (max-width: 1310px){
-    .pic1{
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .main{
+        width: 1255px;
+       
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .me{
+        flex-direction: column;
         width: 100%;
-        
-  }
-  .pic1 img{
-      width: 98%;
+        /* margin-left: 5px; */
+    }
+    .pic2 {
+
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+     }
+     .pic2 img{
+         width: 100%;
+     }
+     #home{
+         height: 100%;
+         
+
+     }
+     .picture{
+         display: flex;
+         flex-direction: column;
+     }
      
-  }
-  .main{
-    width: 100%;
-   
-    display: flex;
-    flex-wrap: wrap;
-   
-   }
-   .pic2 img{
-    width: 100%;
-  }
+    .pic1{
+          width: 100%;
+          margin-top: 30px;
+    }
+    .pic1 img{
+        width: 98%;
+       
+    }
+    .qulification{
+        height: 100%;
+    }
+    .dp{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .my-skills{
+        height: 100%;
+    }
+    .dc1{
+        height: 100%;
+        width: 90%;
+    }
+    .dc2{
+        width: 90%;
+    }
+    .father{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+       
+    }
+    footer{
+        height: 100%;
+       
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .prag{
+          text-align: center;
+    }
+    .navbar-brand{
+        display: inline;
+    }
+    .pages{
+        display: none;
+    }
+    .navbar-brand{
+        display: none;
+    }
  
 }
+@media screen and (min-width: 769px) and (max-width: 1279px)
+{
+    .pic1 img{
+        width: 98%;
+       
+    }
+    .pic2 img{
+        width: 100%;
+      }
+      
 
+}
 
 
 
